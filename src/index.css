@@ -1,0 +1,91 @@
+.site-layout .site-layout-background {
+  background: #fff;
+}
+[data-theme="dark"] .site-layout .site-layout-background {
+  background: #141414;
+}
+
+.ant-layout-sider-children {
+  transition: 0.2s all linear;
+}
+
+.ant-layout-sider-dark,
+.ant-layout-sider-trigger {
+  max-width: 250px !important;
+}
+
+.ant-table-content {
+  overflow: auto;
+}
+
+form#basic {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ant-layout-header {
+  height: 75px !important;
+}
+
+.ant-row.ant-form-item {
+  width: 30%;
+}
+
+.ant-form-vertical .ant-row.ant-form-item {
+  width: 90%;
+  margin: 0 auto;
+}
+
+td.ant-table-cell {
+  height: 50px;
+  max-width: 260px;
+  min-width: auto;
+  overflow: auto;
+}
+
+input[type="file"] {
+  color: transparent !important;
+}
+input[type="file"]::before {
+  content: "Rasm Tanlang:";
+  color: black;
+  margin-right: 10px;
+}
+
+@media (min-width: 0) and (max-width: 717.9px) {
+  .ant-table-cell {
+    width: 100px;
+  }
+  tr.ant-table-row.ant-table-row-level-0,
+  thead.ant-table-thead {
+    display: flex;
+    justify-content: center;
+  }
+  button.ant-btn.ant-btn-danger {
+    margin-bottom: 0.2rem;
+  }
+  .ant-row.ant-form-item {
+    width: 60%;
+  }
+}
+
+@media (min-width: 574px) and (max-width: 850.9px) {
+  .ant-row.ant-form-item {
+    width: 80%;
+  }
+}
+
+@media (min-width: 718px) and (max-width: 850.9px) {
+  .ant-row.ant-form-item {
+    width: 60%;
+  }
+}
+
+@media (min-width: 851px) and (max-width: 1300.9px) {
+  .ant-row.ant-form-item {
+    width: 50%;
+  }
+}

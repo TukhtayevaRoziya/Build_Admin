@@ -1,0 +1,45 @@
+::-webkit-scrollbar {
+  background-color: transparent;
+  height: 4px;
+  width: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: #001529;
+  border-radius: 10px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 16px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.3);
+
+  color: #fff;
+  font-size: 14px;
+  font-family: system-ui;
+}
+
+.logoIcon {
+  width: 70px;
+  padding: 0.2rem;
+}
+
+.headerDesc {
+  display: flex;
+  justify-content: space-around;
+}
+
+.headerDesc div {
+  width: 48%;
+}
+
+.btnLogOut {
+  text-align: end;
+}
+
+.tableImg{
+  height:100px
+}
